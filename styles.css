@@ -1,6 +1,7 @@
 :root {
     --roxo: #87509C;
     --ciano: #17C2A4;
+    --laranja: #EB7D4B;
     --branco: #FFFFFF;
     --branco-secundario: #E7F1F8;
     --amarelo: #FFDD99;
@@ -14,4 +15,55 @@ body {
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 300;
+}
+
+.cabecalho {
+    background-color: var(--roxo);
+    color: var(--branco);
+    padding-top: 1em;
+    padding-bottom: 8em;
+}
+
+.cabecalho__navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho__logo {
+    margin: 3em 8em;
+}
+
+.cabecalho__lista {
+    display: flex;
+    padding: 1em;
+    margin: 3em 8em;
+}
+
+.cabecalho__lista-item {
+    padding: 0.5em;
+    margin: 0.5em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.cabecalho__conteudo {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.cabecalho__conteudo--titulo {
+    font-size: 42.15px;
+    font-weight: 700;
+    margin: 1em;
+    margin-bottom: 1.5em;
+    line-height: 64px;
+}
+
+.cabecalho__conteudo--botao{
+    font-size: 18px;
+    font-weight: 700;
+    background-color: var(--laranja);
+    border-radius: 6px;
+    padding: 1.5em 6em;
+    box-shadow: 0px 4px #df6025;
 }
