@@ -67,3 +67,48 @@ body {
     padding: 1.5em 6em;
     box-shadow: 0px 4px #df6025;
 }
+
+.bloco-um {
+    background-color: var(--ciano);
+    color: var(--branco);
+    text-align: center;
+    padding: 3.5em;
+}
+
+.bloco-um__titulo {
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 1em;
+}
+
+.bloco-um__descricao {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 1em;
+    margin-bottom: 2em;
+    line-height: 27px;
+}
+
+.bloco-um__lista {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista--item {
+    padding: 1.8em;
+}
+
+.lista--item__titulo {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 1em 0;
+}
+
+.lista--item__imagem {
+    margin-bottom: 1em;
+}
+
+.lista--item__descricao {
+    line-height: 24px;
+}
