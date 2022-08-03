@@ -1,0 +1,17 @@
+:root {
+    --roxo: #87509C;
+    --ciano: #17C2A4;
+    --branco: #FFFFFF;
+    --branco-secundario: #E7F1F8;
+    --amarelo: #FFDD99;
+    --rosa: #D74680;
+    --azul: #3C5499;
+    --azul-secundario: #344B8E;
+    --fonte-principal: "Titillium Web";
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 300;
+}
