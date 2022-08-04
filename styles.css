@@ -162,3 +162,77 @@ body {
     padding: 0.3em;
 }
 
+.skills {
+    color: var(--azul-terciario);
+    background-color: var(--branco); 
+    text-align: center; 
+    padding: 3em;
+}
+
+.skills__titulo {
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 1.5em;
+}
+
+.skills__descricao {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 2em;
+    line-height: 27px;
+}
+
+.skills__lista {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+.skills__lista-item {
+    padding: 1.5em;
+}
+
+.skills__lista-porcentagem {
+    font-size: 50px;
+    padding: 1em;
+    background-image: url(../Projeto-Figma-pratica/img/90.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.skills__lista-porcentagem2 {
+    font-size: 50px;
+    padding: 1em;
+    background-image: url(../Projeto-Figma-pratica/img/75.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.skills__lista-porcentagem3 {
+    font-size: 50px;
+    padding: 1em;
+    background-image: url(../Projeto-Figma-pratica/img/70.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.skills__lista-porcentagem4 {
+    font-size: 50px;
+    padding: 1em;
+    background-image: url(../Projeto-Figma-pratica/img/85.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+.skills__lista-titulo {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 1em;
+}
