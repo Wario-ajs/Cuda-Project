@@ -293,6 +293,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 1em;
+    color: #1b1b1b;
 }
 
 .portifolio__botao {
@@ -307,4 +308,64 @@ body {
 
 .portifolio__botao--container {
     margin: 6em 0;
+}
+
+.feedback {
+    color: var(--branco);
+    background-color: var(--rosa);
+    text-align: center;
+    padding: 2em 2em 8em 2em;
+}
+
+.feedback__titulo {
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 1em;
+}
+
+.feedback__descricao {
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 0.5em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
+.feedback__container {
+    text-align: start;
+    display: flex;
+    padding: 0 5em;
+    margin: 0 4em;
+}
+
+.feedback__content {
+    display: grid;
+    padding: 1em;
+    justify-content: flex-start;
+    grid-template-columns: auto auto;
+    column-gap: 2em;
+}
+
+.feedback__content--text {
+    align-self: center;
+    font-size: 16px;
+    font-weight: 200;
+    font-style: italic;
+    line-height: 20px;
+}
+
+.feedback__content--name {
+    font-size: 19px;
+    font-weight: 700;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.feedback__content--ocupation {
+    font-size: 16px;
+    font-weight: 200;
+    color: var(--amarelo);
+    grid-column: 2;
+    grid-row: 3;
+    margin-top: 0.5em;
 }
