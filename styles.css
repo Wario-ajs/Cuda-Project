@@ -8,6 +8,7 @@
     --rosa: #D74680;
     --azul: #3C5499;
     --azul-secundario: #344B8E;
+    --azul-terciario: #3C4761;
     --fonte-principal: "Titillium Web";
 }
 
@@ -17,6 +18,7 @@ body {
     font-weight: 300;
 }
 
+/*Header*/
 .cabecalho {
     background-color: var(--roxo);
     color: var(--branco);
@@ -68,6 +70,8 @@ body {
     box-shadow: 0px 4px #df6025;
 }
 
+/*First Block*/
+
 .bloco-um {
     background-color: var(--ciano);
     color: var(--branco);
@@ -112,3 +116,49 @@ body {
 .lista--item__descricao {
     line-height: 24px;
 }
+
+.team {
+    background-color: var(--branco-secundario);
+    color: var(--azul-terciario);
+    text-align: center;
+    padding: 4em;
+}
+
+.team__titulo {
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 1em;
+}
+
+.team__descricao {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 1em 0;
+}
+
+.team__lista {
+    display: flex;
+    padding: 2em;
+}
+
+.team__lista-titulo {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 0.3em;
+}
+
+.team__lista-subtitulo {
+    font-weight: 400;
+    color:#30BAE7;
+}
+
+.team__lista-descricao {
+    line-height: 24px;
+    padding: 1em;
+    margin: 0.5em 1em;
+}
+
+.lista__icons-img {
+    padding: 0.3em;
+}
+
