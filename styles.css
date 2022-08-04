@@ -229,10 +229,82 @@ body {
     background-position: center;
 }
 
-
 .skills__lista-titulo {
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
     padding: 1em;
+}
+
+.portifolio {
+    color: #393939;
+    background-color: var(--amarelo);
+    text-align: center;
+    padding: 2em;
+}
+
+.portifolio__titulo {
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 1.5em;
+}
+
+.portifolio__descricao {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    padding: 1em;
+}
+
+.portifolio__lista {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    margin-bottom: 4em;
+}
+
+
+.portifolio__lista--buton {
+    padding: 0.6em 1.2em;
+    margin: 0 0.5em;
+    background-color: rgb(56, 56, 56, .1);
+    border-radius: 2px;
+}
+
+.portifolio__lista--text {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.portifolio__screens  {
+    display: flex;
+    justify-content: center;
+}
+
+.portifolio__screens-row {
+    padding: 0 1em;
+}
+
+.screens__content-pc {
+    padding: 1em;
+}
+
+.screen--descricao {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
+.portifolio__botao {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--branco);
+    background-color: var(--ciano);
+    border-radius: 6px;
+    padding: 1em 3em;
+    box-shadow: 0px 4px #139981;
+}
+
+.portifolio__botao--container {
+    margin: 6em 0;
 }
