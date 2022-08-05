@@ -35,6 +35,10 @@ body {
     margin: 3em 8em;
 }
 
+.cabecalho__logo:hover {
+    cursor: pointer;
+}
+
 .cabecalho__lista {
     display: flex;
     padding: 1em;
@@ -46,6 +50,11 @@ body {
     margin: 0.5em;
     font-weight: 400;
     text-transform: uppercase;
+}
+
+.cabecalho__lista-item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
 }
 
 .cabecalho__conteudo {
@@ -61,13 +70,19 @@ body {
     line-height: 64px;
 }
 
-.cabecalho__conteudo--botao{
+.cabecalho__conteudo--botao {
     font-size: 18px;
     font-weight: 700;
     background-color: var(--laranja);
     border-radius: 6px;
     padding: 1.5em 6em;
     box-shadow: 0px 4px #df6025;
+}
+
+.cabecalho__conteudo--botao:hover {
+    border-radius: 6px;
+    padding: 1.7em 6.2em;
+    font-size: 19px;
 }
 
 /*First Block*/
@@ -160,6 +175,10 @@ body {
 
 .lista__icons-img {
     padding: 0.3em;
+}
+
+.lista__icons-img:hover {
+    cursor: pointer;
 }
 
 .skills {
@@ -271,9 +290,14 @@ body {
     border-radius: 2px;
 }
 
+.portifolio__lista--buton:hover {
+    background-color: var(--branco);
+    cursor: pointer;
+}
+
 .portifolio__lista--text {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .portifolio__screens  {
@@ -304,6 +328,11 @@ body {
     border-radius: 6px;
     padding: 1em 3em;
     box-shadow: 0px 4px #139981;
+}
+
+.portifolio__botao:hover {
+    padding: 1.2em 3.2em;
+    font-size: 18.3px;
 }
 
 .portifolio__botao--container {
@@ -450,6 +479,11 @@ body {
     box-shadow: 0px 4px #13a3d3;
 }
 
+.contact__button:hover {
+    padding: 1.2em 4.2em;
+    cursor: pointer;
+}
+
 .rodape {
     background-color: #273A71;
     color: var(--branco);
@@ -469,4 +503,8 @@ body {
 .rodape__lista--link {
     font-size: 24px;
     font-weight: 400;
+}
+
+.rodape__lista--link:hover {
+    color: #30BAE7;
 }
