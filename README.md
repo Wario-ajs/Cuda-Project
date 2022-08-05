@@ -1,5 +1,6 @@
 # Cuda-Project
-Projeto baseado no modelo do Figma Cuda (community), para prática de tecnologias como Html &amp; CSS
+Projeto baseado no modelo do Figma Cuda (community), para prática de tecnologias como Html &amp; CSS 
+[Link do projeto na Vercel]([Link do projeto no figma](https://www.figma.com/file/aJTgiWBZwTPl7ULaEDTxVn/Cuda-Single-Page-Portfolio-Template-(Community)?node-id=0%3A1))
 
 ## Guia de estilos
 
