@@ -369,3 +369,83 @@ body {
     grid-row: 3;
     margin-top: 0.5em;
 }
+
+.contact {
+    padding: 4em;
+    color: var(--branco);
+    background-color: var(--azul);
+    text-align: center;
+}
+
+.contact__title {
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 1em;
+}
+
+.contact__descricao {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 2em 0 2em 0;
+}
+
+.contact__input-line {
+    padding: 1em;
+}
+
+.input__name {
+    width: 21.5em;
+    margin: 1em;
+    border-radius: 3px;
+    height: 3em;
+    background-color: #273A71;
+}
+
+.input__name::placeholder {
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--branco);
+    padding-left: 1em;
+}
+
+.input__email {
+    width: 21.5em;
+    margin: 1em;
+    border-radius: 3px;
+    height: 3em;
+    background-color: #273A71;
+}
+
+.input__email::placeholder {
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--branco);
+    padding-left: 1em;
+}
+
+.input__text {
+    border-radius: 3px;
+    background-color: #273A71;
+}
+
+.input__text::placeholder {
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--branco);
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+.contact__button {
+    display: block;
+    margin: 3em auto;
+    font-size: 18px;
+    font-weight: 600;
+    background-color:#30BAE7;
+    border-radius: 6px;
+    padding: 1em 4em;
+    box-shadow: 0px 4px #13a3d3;
+}
